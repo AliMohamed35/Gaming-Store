@@ -1,0 +1,53 @@
+.hero {
+    margin-top: 3rem;
+}
+
+#myDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    color: white;
+    column-gap: 4px;
+    height: 500px;
+}
+
+#secondDiv {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: blue;
+    background-image: url(../../assets/image1.jpg);
+}
+
+.item3 {
+    background-color: green;
+    background-image: url(../../assets/image1.jpg);
+}
+
+.item4 {
+    background-color: yellow;
+    background-image: url(../../assets/image1.jpg);
+}
+
+.item5 {
+    background-color: purple;
+    background-image: url(../../assets/image1.jpg);
+}

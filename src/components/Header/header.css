@@ -1,0 +1,26 @@
+nav {
+    box-shadow: 5px 0px 10px #00000042;
+    font-size: 1.2rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        padding-right: 3rem;
+        color: black;
+    }
+}
