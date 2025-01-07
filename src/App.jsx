@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Slider from './components/Slider-hero/Slider'
@@ -13,6 +14,7 @@ function App() {
         <Slider />
         <Spliter1 />
         <Hero />
+        <Footer />
       </main>
     </>
   )
