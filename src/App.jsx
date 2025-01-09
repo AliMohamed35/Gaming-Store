@@ -12,8 +12,8 @@ function App() {
       <main>
         <Header />
         <Slider />
-        <Spliter1 />
         <Hero />
+        <Spliter1 />
         <Footer />
       </main>
     </>

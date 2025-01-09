@@ -1,6 +1,9 @@
 nav {
     box-shadow: 5px 0px 10px #00000042;
     font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid #ff464673;
 }
 
 .logo {
@@ -21,6 +24,24 @@ nav {
     a {
         text-decoration: none;
         padding-right: 3rem;
-        color: black;
+        color: white;
+        position: relative;
+    }
+
+    a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        /* The thickness of the border */
+        background-color: white;
+        /* Set the border color */
+        transition: width 0.3s ease-in-out;
+    }
+
+    a:hover::after {
+        width: 60%;
     }
 }
